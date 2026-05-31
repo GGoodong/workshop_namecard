@@ -39,7 +39,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🚙 Workshop 명찰 자동화 플랫폼")
+st.title("Workshop 명찰 자동화 플랫폼")
 st.write("명단 업로드만으로 워크샵 명찰을 자동 생성합니다.")
 
 # ---------------------------------
@@ -239,7 +239,7 @@ def render_preview(w_name, center, name, position, is_lg, logo_b64=None):
 # 사이드바 / 입력 영역
 # ---------------------------------
 with st.sidebar:
-    st.markdown("<h2 style='color:#1B2A6B; font-size:1.4rem; font-weight:700; margin-bottom:15px;'>🛞 기본 설정</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color:#1B2A6B; font-size:1.4rem; font-weight:700; margin-bottom:15px;'>⚙️ 기본 설정</h2>", unsafe_allow_html=True)
     badge_width = st.number_input("명찰 가로폭 (mm)", min_value=50, max_value=200, value=100)
     badge_height = st.number_input("명찰 세로높이 (mm)", min_value=50, max_value=200, value=130)
     workshop_name = st.text_input("워크샵 타이틀", value="'26년 LCO 권역장 워크샵")
